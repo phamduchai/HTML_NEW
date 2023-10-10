@@ -33,7 +33,8 @@ ul li{
 .nav_menu {
     list-style: none;
     display: flex;
-    margin-left: 50px;
+    align-items: center;
+    text-align: center;
 }
 .search-container {
     display: flex;
@@ -80,8 +81,230 @@ ul li{
 .fa-search {
     font-size: 18px;
 }
-.menu_child{
-    padding-top: 15px;
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    margin-top: -230px;
+    margin-left: 380px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    z-index: -1;
+}
+    .slider slide:hover .slide-button .prev-button{
+        display: block
+    }
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
 
+.slide {
+    flex: 0 0 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+.menu_main {
+    display: block;
+}
+.menu_child {
+    padding-top: 15px;
+}
+.menu_main ul.menu-haschild li:hover a{
+    display:block;
+}
+.menu-haschild {
+    list-style: none;
+    margin-left: 7%;
+    border: 1px solid;
+    width: 170px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    box-shadow: initial;
+}
+    .menu-haschild li {
+        list-style: none;
+        position: relative;
+        padding: 6px 4px;
+        width: 170px;
+    }
+        .menu-haschild li:hover ul.sub-menu{
+            display: block;
+        }
+        .sub-menu {
+            position: absolute;
+            margin-top: -15px;
+            width: 200px;
+            display: none;
+            border: 1px solid;
+            margin-left: 150px;
+            border-radius: 0 15px 15px;
+            background-color: white;
+        }
+    .sub-menu li {
+        padding: 10px 7px;
+    }
+        .sub-menu li:hover {
+            border-bottom: 1px solid #d70018;
+        }
+
+.menu-haschild li:hover ul.sub-menu2 {
+    display: block;
+}
+
+.sub-menu2 {
+    position: absolute;
+    margin-top: -45px;
+    width: 200px;
+    display: none;
+    border: 1px solid;
+    margin-left: 150px;
+    border-radius: 0 15px 15px;
+    background-color: white;
+}
+        .sub-menu2 li {
+            padding: 10px 7px;
+        }
+
+            .sub-menu2 li:hover {
+                border-bottom: 1px solid #d70018;
+            }
+
+.menu-haschild li:hover ul.sub-menu3 {
+    display: block;
+}
+
+.sub-menu3 {
+    position: absolute;
+    margin-top: -75px;
+    width: 200px;
+    display: none;
+    border: 1px solid;
+    margin-left: 150px;
+    border-radius: 0 15px 15px;
+    background-color: white;
+}
+
+    .sub-menu3 li {
+        padding: 10px 7px;
+    }
+
+        .sub-menu3 li:hover {
+            border-bottom: 1px solid #d70018;
+        }
+
+.menu-haschild li:hover ul.sub-menu4 {
+    display: block;
+}
+
+.sub-menu4 {
+    position: absolute;
+    margin-top: -105px;
+    width: 200px;
+    display: none;
+    border: 1px solid;
+    margin-left: 150px;
+    border-radius: 0 15px 15px;
+    background-color: white;
+}
+
+    .sub-menu4 li {
+        padding: 10px 7px;
+    }
+
+        .sub-menu4 li:hover {
+            border-bottom: 1px solid #d70018;
+        }
+
+.menu-haschild li:hover ul.sub-menu5 {
+    display: block;
+}
+
+.sub-menu5 {
+    position: absolute;
+    margin-top: -135px;
+    width: 200px;
+    display: none;
+    border: 1px solid;
+    margin-left: 150px;
+    border-radius: 0 15px 15px;
+    background-color: white;
+}
+
+    .sub-menu5 li {
+        padding: 10px 7px;
+    }
+
+        .sub-menu5 li:hover {
+            border-bottom: 1px solid #d70018;
+        }
+
+.menu-haschild li:hover ul.sub-menu6 {
+    display: block;
+}
+
+.sub-menu6 {
+    position: absolute;
+    margin-top: -165px;
+    width: 200px;
+    display: none;
+    border: 1px solid;
+    margin-left: 150px;
+    border-radius: 0 15px 15px;
+    background-color: white;
+}
+
+    .sub-menu6 li {
+        padding: 10px 7px;
+    }
+
+        .sub-menu6 li:hover {
+            border-bottom: 1px solid #d70018;
+        }
+
+.menu-haschild li:hover ul.sub-menu7 {
+    display: block;
+}
+
+.sub-menu7 {
+    position: absolute;
+    margin-top: -195px;
+    width: 200px;
+    display: none;
+    border: 1px solid;
+    margin-left: 150px;
+    border-radius: 0 15px 15px;
+    background-color: white;
+}
+
+    .sub-menu7 li {
+        padding: 10px 7px;
+    }
+
+        .sub-menu7 li:hover {
+            border-bottom: 1px solid #d70018;
+        }
