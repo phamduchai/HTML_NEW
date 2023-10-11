@@ -55,7 +55,7 @@ footer ul li {
     width: 100%;
     border-bottom: 1px solid rgb(81,81,84);
     display: inline-flex;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .col1 {
@@ -63,13 +63,24 @@ footer ul li {
     width: 30%;
 }
 .ul1{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 .ul1 li{
     padding-top: 10px;
+}
+.row2 {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
 }
 .col2 {
     margin-left: -80px;
     width: 60%;
     display: inline-flex;
+}
+.check-img{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
 }

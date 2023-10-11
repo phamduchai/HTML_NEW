@@ -71,6 +71,9 @@
     <Content Include="FooterCSS.css" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="IMG\adv1.jpg" />
+    <Content Include="IMG\adv2.jpg" />
+    <Content Include="IMG\adv3.jpg" />
     <Content Include="IMG\CellphoneS-Logo-PNG-1.png" />
     <Content Include="IMG\Cellphones_1.jpg" />
     <Content Include="IMG\Cellphones_2.jpg" />

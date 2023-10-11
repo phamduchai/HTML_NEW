@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+.wrapper {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 8%;
+}
 .adv_wrapper {
     display: flex;
     list-style: none;
@@ -31,6 +36,8 @@ nav {
     background-color: #d70018;
     color: white;
     width: 100%;
+    position: fixed;
+    z-index: 4;
 }
 
 ul li {
@@ -95,16 +102,17 @@ ul li {
 .slider-container {
     position: relative;
     overflow: hidden;
-    width: 600px;
+    width: 700px;
     margin-top: -230px;
-    margin-left: 315px;
+    margin-left: 23%;
     align-content: center;
     align-items: center;
     text-align: center;
+    height: 290px;
 }
 
 .slide img {
-    width: 600px;
+    width: 700px;
 }
 
 .slider {
@@ -128,7 +136,7 @@ ul li {
 .prev-button,
 .next-button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: white;
@@ -136,6 +144,7 @@ ul li {
     border: none;
     cursor: pointer;
     display: none; 
+    font-size: 35px;
 }
 
 .slide {
@@ -349,3 +358,15 @@ ul li {
         .sub-menu7 li:hover {
             border-bottom: 1px solid #d70018;
         }
+.adv-side-main{
+    margin-left: 60%;
+    margin-top: -21%;
+}
+.adv-side{
+    list-style: none;
+}
+.adv-side li img{
+    width: 50%;
+    padding: 5px 0 0 0;
+    border-radius: 15px 15px 15px 15px;
+}
