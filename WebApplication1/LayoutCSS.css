@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
 }
+.BannerTopHead {
+    display: flex;
+    background-color: #e9efff;
+    margin-top: 1.2%;
+}
+.BannerTopHead img{
+    padding-left: 50%;
+}
 .wrapper {
     align-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 11%;
 }
 .adv_wrapper {
     display: flex;
@@ -194,15 +202,12 @@ ul li {
         .menu-haschild li:hover ul.sub-menu {
             display: block;
         }
-
 .sub-menu {
     position: absolute;
     margin-top: -15px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -210,6 +215,9 @@ ul li {
     .sub-menu li {
         padding: 10px 7px;
     }
+        .sub-menu li a {
+            text-decoration: none;
+        }
 
         .sub-menu li:hover {
             border-bottom: 1px solid #d70018;
@@ -224,9 +232,7 @@ ul li {
     margin-top: -45px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -248,9 +254,7 @@ ul li {
     margin-top: -75px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -272,9 +276,7 @@ ul li {
     margin-top: -105px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -296,9 +298,7 @@ ul li {
     margin-top: -135px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -320,9 +320,7 @@ ul li {
     margin-top: -165px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -344,9 +342,7 @@ ul li {
     margin-top: -195px;
     width: 200px;
     display: none;
-    border: 1px solid;
     margin-left: 150px;
-    border-radius: 0 15px 15px;
     background-color: white;
     z-index: 2;
 }
@@ -359,14 +355,17 @@ ul li {
             border-bottom: 1px solid #d70018;
         }
 .adv-side-main{
-    margin-left: 60%;
-    margin-top: -21%;
+    margin-left: 63%;
+    margin-top: -22%;
 }
 .adv-side{
     list-style: none;
 }
+    .adv-side li img{
+        height: 120px;
+    }
 .adv-side li img{
     width: 50%;
     padding: 5px 0 0 0;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px;
 }

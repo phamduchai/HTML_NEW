@@ -71,6 +71,15 @@
     <Content Include="FooterCSS.css" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="IMG Connect\cellphones-facebook.jpg" />
+    <Content Include="IMG Connect\cellphones-instagram.jpg" />
+    <Content Include="IMG Connect\cellphones-tiktok.jpg" />
+    <Content Include="IMG Connect\cellphones-youtube.jpg" />
+    <Content Include="IMG Connect\cellphones-zalo.jpg" />
+    <Content Include="IMG Connect\dienthoaivui.jpg" />
+    <Content Include="IMG Connect\Logo_CareS_1.jpg" />
+    <Content Include="IMG Connect\schanel.jpg" />
+    <Content Include="IMG Connect\sforum.jpg" />
     <Content Include="IMG\adv1.jpg" />
     <Content Include="IMG\adv2.jpg" />
     <Content Include="IMG\adv3.jpg" />
@@ -88,6 +97,7 @@
     <Content Include="IMG_pay\vnpay-logo.jpg" />
     <Content Include="IMG_pay\zalopay-logo.jpg" />
     <Content Include="LayoutCSS.css" />
+    <Content Include="LayoutCSS2.css" />
     <Content Include="SliderJVS.js" />
     <Content Include="Web.config" />
   </ItemGroup>
