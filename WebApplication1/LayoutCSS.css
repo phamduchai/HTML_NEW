@@ -12,7 +12,12 @@
 }
 .wrapper1 {
     text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 5%;
     padding-top: 15%;
+    display: grid;
+    grid-template-columns: 250px 630px 400px;
 }
 .adv_wrapper {
     display: flex;
@@ -109,8 +114,6 @@ ul li {
     position: relative;
     overflow: hidden;
     width: 700px;
-    margin-top: -230px;
-    margin-left: 23%;
     align-content: center;
     align-items: center;
     text-align: center;
@@ -169,8 +172,10 @@ ul li {
 }
 
 .menu_main {
+    text-align: center;
+    align-content: center;
+    align-items: center;
     display: block;
-    margin-left: 5%;
 }
 
 .menu_child {
@@ -353,9 +358,10 @@ ul li {
         .sub-menu7 li:hover {
             border-bottom: 1px solid #d70018;
         }
-.adv-side-main{
-    margin-left: 67%;
-    margin-top: -22%;
+.adv-side-main {
+    text-align: center;
+    align-content: center;
+    align-items: center;
 }
 .adv-side{
     list-style: none;
