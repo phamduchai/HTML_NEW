@@ -14,7 +14,7 @@
     margin-left: 5%;
     padding-top: 15%;
     display: grid;
-    grid-template-columns: 250px 630px 400px;
+    grid-template-columns: 230px 610px 350px;
 }
 @media (max-width: 500px)
 {
