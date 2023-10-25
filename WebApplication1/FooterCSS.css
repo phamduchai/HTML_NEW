@@ -4,7 +4,8 @@
     color: white;
     width: 100%;
     color: black;
-    align-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -75,7 +76,7 @@ footer ul li {
     padding: 0;
 }
 .col2 {
-    margin-left: -80px;
+
     width: 60%;
     display: inline-flex;
 }

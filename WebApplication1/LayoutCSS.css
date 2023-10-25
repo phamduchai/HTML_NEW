@@ -1,6 +1,6 @@
 ﻿body {
     margin: 0;
-    padding: 0;
+
 }
 .BannerTopHead {
     display: flex;
@@ -11,10 +11,13 @@
     padding-left: 50%;
 }
 .wrapper1 {
-    margin-left: 5%;
-    padding-top: 15%;
+    padding-top: 140px;
     display: grid;
-    grid-template-columns: 230px 610px 350px;
+    grid-template-columns: 230px 570px 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
 }
 @media (max-width: 500px)
 {
@@ -32,7 +35,11 @@ header {
     background-color: #e9efff;
     margin-top: -15px;
 }
-
+.Out_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 nav {
     margin-top: -20px;
 }
@@ -50,7 +57,7 @@ nav {
     background-color: #d70018;
     color: white;
     width: 100%;
-    position: fixed;
+
     z-index: 4;
 }
 
@@ -61,7 +68,7 @@ ul li {
 .nav_menu {
     list-style: none;
     display: flex;
-    align-items: center;
+    position: fixed;
     text-align: center;
 }
 
@@ -117,9 +124,7 @@ ul li {
     position: relative;
     overflow: hidden;
     width: 700px;
-    align-content: center;
-    align-items: center;
-    text-align: center;
+
     height: 290px;
 }
 
